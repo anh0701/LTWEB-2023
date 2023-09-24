@@ -181,5 +181,48 @@
         </p>
     </form>
 
+    <h2><center><font size="5" color="pink" font="Arial">Application Form</font></center></h2>
+    <hr align="center">
+    <form action="" method="post">
+        <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="">
+            <p>Area of Interest</p>
+            <br>
+            <input type="radio" name="Control1" id="" value="0" checked> Web Designer
+            <input type="radio" name="Control1" id="" value="1"> Web Administrator
+            <input type="radio" name="Control1" id="" value="2"> Web Developer
+        </p>
+        <p> Experience
+            <select name="Control2" id="">
+                <option value="">None</option>
+                <option value="">1 year</option>
+                <option value="">2 year</option>
+                <option value="">3 year</option>
+            </select>
+            <br>
+        </p>
+        <p>Comments</p>
+        <br>
+        <textarea name="Control3" id="" cols="30" rows="10">
+            Type your comments here
+        </textarea>
+        <br>
+        <p><input type="checkbox" name="Control4" id="">Send acknowledgement</p>
+        <br>
+        <p>
+            <input type="submit" value="ok">
+            <input type="reset" value="reset">
+        </p>
+    </form>
+
+    <hr size="10" color="pink">
+
+    <frameset cols="50%, *">
+        <frame src="left.html">
+        <frame src="footer.html">
+    </frameset>
+
+    
 </body>
 </html>
