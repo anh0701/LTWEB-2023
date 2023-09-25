@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Combining ID and Class Selectors</title>
+	<style type="text/css">
+		.forest{
+			color: green;
+			.danger{
+				color: red;
+			}
+			#control{
+				color:blue;
+			}
+		}
+	</style>
+</head>
+<body>
+	<p class="forest">green things</p>
+	<p class="danger">fire hazards</p>
+	<em class="forest">more green things</em>
+	<br>
+	<em class="danger">more fire hazards</em>
+	<ul>
+		<li class="danger">things that burn</li>
+		<li class="forest">things that don't burn</li>
+	</ul>
+	<p id="control">water</p>
+</body>
+</html>
