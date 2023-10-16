@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Form Tag</title>
+    <script src="script12.js"></script>
+</head>
+<body bgcolor="#fffff" onload="alert('Hello')">
+    <form action="simple.html">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+
+    <br><br><hr>
+
+    <form action="">
+        Enter the expression:
+        <input type="text" name="expr" size="15">
+        <br><br>
+        <input type="button" value="Calculate" onclick="compute(this.form)">
+        <br><br><br>
+        The result is:
+        <input type="text" name="ketqua" size="15">
+        <br>
+    </form>
+
+    <br><br><br><hr>
+
+    <form action="">
+        Please enter a number:
+        <input type="text" size="5" onchange="checkNum(this.value)">
+    </form>
+
+
+    <br><br><br><hr>
+
+    <form action="">
+        <input type="text" name="text1" onblur="(document.bgColor = 'aqua')" onfocus="(document.bgColor = 'dimgray')">
+    </form>
+
+    <br><br><hr>
+
+    <form action="">
+        <input type="text" size="40">
+    </form>
+    <a href="" onmouseover="showLink(1)">America</a><br>
+    <a href="" onmouseover="showLink(2)">Korea</a><br>
+    <a href="" onmouseover="showLink(3)">Vietnam</a><br>
+
+    <!-- <br><br><hr> -->
+    <!-- <form action="">
+        <input type="button" value="Change color" name="butt1" onmousedown="(document.bgColor='aqua') " onmouseup="(document.bgColor='limegreen')">
+    </form> -->
+</body>
+</html>
