@@ -1,0 +1,29 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+#content {
+    width: 770px;
+    height: 400px;
+}
+
+#head-content{
+    height: 40px;
+    background: url('https://i.ytimg.com/vi/iIng8QJL1Q0/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGBMgWih_MA8=&rs=AOn4CLCvurFHTWVagyPb8vGNvdHFwFjXug');
+}
+
+#head-content > p{
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#gia{
+    border: none;
+    background-color: #48abc9;
+}
+
+#chitiet{
+    border: none;
+    background-color: #48abc9;
+}
