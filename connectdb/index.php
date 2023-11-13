@@ -1,5 +1,6 @@
+
 <?php
-    include 'connectdb.php';
+    include('session.php');
     if($connect){
         echo "Success!!";
     }
